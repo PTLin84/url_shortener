@@ -6,13 +6,13 @@ Usage
 =====
 Three applications have to be run for this URL shortener web application to operate.
 
-1. **Dash app** 
+1. **Dash app**  
 This is the frontend of this web application, offering graphical user interface for users to generate shortened URLs.
 
-2. **FastAPI endpoint** 
+2. **FastAPI endpoint**  
 This is a RESTful API behind the scene that handles users requests to shorten a long URL or to visit the shortened URLs and be redirected to the corresponding long URLs.
 
-3. **Redis cache** 
+3. **Redis cache**  
 This is a RAM-based cache for storing recently accessed data. It runs within a Docker container using official Docker image [redis/redis-stack](https://hub.docker.com/r/redis/redis-stack).
 
 Design
