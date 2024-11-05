@@ -116,10 +116,11 @@ app.layout = html.Div(
                             "maxWidth": "200px",  # Set a maximum width for the cell
                             "whiteSpace": "nowrap",  # Prevent text from wrapping to the next line
                             "textAlign": "left",  # Align text to the left
+                            "paddingLeft": "8px",
                         },
                         style_cell_conditional=[
-                            {"if": {"column_id": "id"}, "width": "5%"},
-                            {"if": {"column_id": "Long URL"}, "width": "60%"},
+                            {"if": {"column_id": "id"}, "width": "4%"},
+                            {"if": {"column_id": "Long URL"}, "width": "65%"},
                         ],
                         style_data_conditional=[
                             {
