@@ -2,8 +2,6 @@ import dash
 import dash_bootstrap_components as dbc
 import dash_mantine_components as dmc
 
-import pytest
-
 from dash import dcc, html, dash_table
 from dash.dependencies import Input, Output, State
 from dash.exceptions import PreventUpdate

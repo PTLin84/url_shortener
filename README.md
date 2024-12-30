@@ -1,9 +1,13 @@
 Summary
 =======
-This repo is a practice project for making a URL shortener. The design is based on the book System Design Interview - Chapter 8: Design A URL Shortener.
+This repo is a practice project for making a URL shortener web app.
+[Demo Video from Youtube](https://youtu.be/QE8XmLBIF_k?si=BBHw61tshRjKw60q)
 
 ![Web app demo image](demo_image.jpg)
 
+Design Diagram
+==============
+![Design Diagram](diagram.jpg)
 
 Usage
 =====
