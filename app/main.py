@@ -53,9 +53,9 @@ def fetch_long_url(short_url: Annotated[str, Path(min_legnth=5, max_length=25)])
     db_instance = Database()
     response = db_instance.get_data_by_short_url(short_url)
 
-    # return NotFound error, redirect to a dedicated page
+    # short_url not found
     if not response:
-        raise ValueError  # TODO redirect
+        raise ValueError
 
     # bring result to cache
     fetched_short, fetched_long = response[0][2], response[0][1]
